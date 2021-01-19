@@ -1,0 +1,56 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url("fw.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.card-body {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 40%;
+}
+
+.card-input {
+    position: relative;
+    left: 0;
+    bottom: -15em;
+    top: 50%;
+    font-family: Bradley Hand, cursive;
+    color: #09624e;
+}
+
+.header {
+    font-family: Bradley Hand, cursive;
+}
+
+.table-div{
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table {
+    border: 1px solid #09624e;
+    border-collapse: separate;
+    empty-cells: hide;
+}
+th, td {border: 2px solid #09624e;}
+
+.tr{
+    margin: auto;
+    border: 1px solid #09624e;
+    border-collapse: separate;
+    empty-cells: hide;
+}
+
